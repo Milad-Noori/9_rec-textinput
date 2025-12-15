@@ -49,6 +49,30 @@ cv2.putText(img,text3,(40,300),font3,1,color=(125,125,125),thickness=1)
 
 
 
+pt9=(280,500)
+pt10=(485,300)
+color4= (100,200,150)
+thickness4 = 1
+text4= "Dog"
+font4 = cv2.FONT_HERSHEY_DUPLEX
+cv2.rectangle(img,pt9,pt10,color4,thickness1)
+cv2.putText(img,text4,(280,300),font4,1,color=(180,100,180),thickness=1)
+
+
+
+pt5=(530,18)
+pt6=(750,220)
+color2 = (50,100,15)
+thickness2 = 1
+text2 = "Frog"
+font2 = cv2.FONT_HERSHEY_DUPLEX
+font_scale = 0.2
+cv2.rectangle(img,pt5,pt6,color2,thickness2)
+cv2.putText(img,text2,(530,18),font2,1,color=(255,180,130),thickness=1)
+
+
+
+
 
 cv2.imshow("exersize.png", img)
 cv2.waitKey(0)
