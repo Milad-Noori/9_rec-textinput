@@ -91,6 +91,16 @@ cv2.rectangle(img,pt15,pt16,color7,thickness7)
 cv2.putText(img,text7,(280,580),font4,1,color=(80,78,130),thickness=1)
 
 
+pt17=(530,580)
+pt18=(750,780)
+color8= (110,75,10)
+thickness8 = 1
+text8= "Duck"
+font8 = cv2.FONT_HERSHEY_DUPLEX
+cv2.rectangle(img,pt17,pt18,color8,thickness8)
+cv2.putText(img,text8,(530,580),font8,1,color=(80,78,130),thickness=1)
+
+
 
 
 
