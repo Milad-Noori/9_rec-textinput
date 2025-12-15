@@ -71,6 +71,17 @@ cv2.putText(img,text5,(530,300),font5,1,color=(255,180,130),thickness=1)
 
 
 
+pt13=(40,580)
+pt14=(240,790)
+color6= (217,190,150)
+thickness6 = 1
+text6= "chikhen"
+font6 = cv2.FONT_HERSHEY_DUPLEX
+cv2.rectangle(img,pt13,pt14,color6,thickness6)
+cv2.putText(img,text6,(40,580),font6,1,color=(130,100,120),thickness=1)
+
+
+
 
 
 cv2.imshow("exersize.png", img)
